@@ -1,0 +1,104 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ 
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "一体化自助体检预约",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/combo/combo",
+			"style": {
+				"navigationBarTitleText": "体检套餐",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/combo/combo-detail",
+			"style": {
+				"navigationBarTitleText": "套餐详情",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle":"black",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/advance-project/advance-physicalExam",
+			"style": {
+				"navigationBarTitleText": "预约体检",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/advance-project/advance-item",
+			"style": {
+				"navigationBarTitleText": "体检项目",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/advance-project/advance-detail",
+			"style": {
+				"navigationBarTitleText": "体检详情",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/userInfo/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/physicalExam-test/physicalExam-test",
+			"style": {
+				"navigationBarTitleText": "体检问卷",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/advance-project/advance-report",
+			"style": {
+				"navigationBarTitleText": "体检报告",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/healthy/healthy-detail",
+			"style": {
+				"navigationBarTitleText": "健康小常识",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/advance-project/advance-finish",
+			"style": {
+				"navigationBarTitleText": "就诊记录",
+				"app-plus": {"titleNView": false}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"		
+	}
+}
+
